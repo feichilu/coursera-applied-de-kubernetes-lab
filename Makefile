@@ -26,4 +26,3 @@ deploy:
 
 all: install lint test format deploy
 
-# change
