@@ -1,9 +1,10 @@
 name: CI2
 on:
     push:
-        branches: [ "main" ]
-    paths:
-        - "Dockerfile"
+        branches: 
+            - main
+        paths:
+            - "Dockerfile"
 
 jobs:
     publish_images:
